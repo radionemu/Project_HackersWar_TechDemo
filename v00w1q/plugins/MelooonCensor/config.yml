@@ -1,0 +1,22 @@
+MelooonCensor:
+  ignore:
+  - glass
+  - grass
+  blacklist:
+  - fuck
+  - shit
+  - cunt
+  - bitch
+  - whore
+  - nigga
+  - wanker
+  - ass
+  - cock
+  - vagina
+  - penis
+  censor: '*'
+  kick: false
+  log: true
+  message:
+    kick: You have been kicked from the server for abusing the chatbox.
+    ingame: '&7Please do not use bad language on our server, &5{player}&7!'

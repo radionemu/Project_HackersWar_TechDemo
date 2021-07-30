@@ -1,0 +1,46 @@
+Scripts:
+  attacker:
+    Script:
+    - '@CMDOP effect <playername> 1 2000000000 2'
+    - '@CMDOP effect <playername> 8 2000000000 1'
+    - '@CMDOP shot give <playername> speedgun 1'
+    - '@CMDOP shot give <playername> shortgun 1'
+    - '@CMDOP groupitem givekit Att3'
+    - '@CMDOP groupitem givekit Att4'
+  ddoser:
+    Script:
+    - '@CMDOP effect <playername> 5 2000000000 2'
+    - '@CMDOP effect <playername> 11 2000000000 1'
+    - '@CMDOP shot give <playername> assault 1'
+    - '@CMDOP shot give <playername> grenade 1'
+    - '@CMDOP groupitem givekit Ddo3'
+    - '@CMDOP groupitem givekit Ddo4'
+  graytiger:
+    Script:
+    - '@CMDOP effect <playername> 8 2000000000 1'
+    - '@CMDOP effect <playername> 11 2000000000 1'
+    - '@CMDOP shot give <playername> rocket 1'
+    - '@CMDOP groupitem givekit Gra2'
+    - '@CMDOP groupitem givekit Gra3'
+  bomber:
+    Script:
+    - '@CMDOP effect <playername> 5 2000000000 1'
+    - '@CMDOP effect <playername> 11 2000000000 1'
+    - '@CMDOP shot give <playername> minesweeper 1'
+    - '@CMDOP shot give <playername> compressed 1'
+    - '@CMDOP groupitem givekit Bom3'
+    - '@CMDOP groupitem givekit Bom4'
+  xel:
+    Script:
+    - '@CMDOP effect <playername> 16 2000000000 1'
+    - '@CMDOP shot give <playername> Snipe 1'
+    - '@CMDOP shot give <playername> pistol 1'
+    - '@CMDOP groupitem givekit Xel3'
+    - '@CMDOP groupitem givekit Xel4'
+  glitcher:
+    Script:
+    - '@CMDOP effect <playername> 5 2000000000 1'
+    - '@CMDOP effect <playername> 16 2000000000 1'
+    - '@CMDOP shot give <playername> error 1'
+    - '@CMDOP groupitem givekit Gli2'
+    - '@CMDOP groupitem givekit Gli3'

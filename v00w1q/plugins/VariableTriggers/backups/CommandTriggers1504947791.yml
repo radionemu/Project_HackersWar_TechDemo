@@ -1,0 +1,66 @@
+Commands:
+  spawn:
+    Override: false
+    Script:
+    - '@CMDOP scoreboard teams join player <playername>'
+    - '@CMDOP heal'
+  sk0000:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 1 10 5'
+    - '@CMDOP effect <playername> 11 5 255'
+    - '@CMDOP effect <playername> 14 1 2'
+    - '@PAUSE 10'
+    - '@CMDOP effect <playername> 1 2000000000 2'
+  sk0001:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 10 8 1'
+    - '@CMDOP clear <playername> 258'
+    - '@CMDOP shot give <playername> OverAssaultRifle'
+    - '@PAUSE 9'
+    - '@CMDOP clear <playername> 258'
+    - '@CMDOP shot give <playername> AssaultRifle'
+  sk0010:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 11 10 255'
+    - '@CMDOP clear <playername> 269'
+    - '@CMDOP shot give <playername> OneKillRocketLauncher'
+    - '@PAUSE 9'
+    - '@CMDOP clear <playername> 269'
+    - '@CMDOP shot give <playername> RocketLauncher'
+    - '@CMDOP effect <playername> 11 2000000000 1'
+  sk0100:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 11 10 255'
+    - '@CMDOP shot give <playername> BombMinigun'
+    - '@PAUSE 9'
+    - '@CMDOP clear <playername> 277'
+    - '@PAUSE 1'
+    - '@CMDOP effect <playername> 11 2000000000 1'
+  sk1000:
+    Override: true
+    Script:
+    - '@CMDOP shot give <playername> Supportingfire 1'
+    - '@CMDOP effect <playername> 11 11 5'
+  sk0011:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 14 10 1'
+    - '@CMDOP effect <playername> 11 2 255'
+    - '@PAUSE 10'
+  sk0110:
+    Override: true
+    Script:
+    - '@CMDOP effect <playername> 1 1 10'
+    - '@CMDOP effect <playername> 8 1 2'
+  colorred:
+    Override: true
+    Script:
+    - '@CMDOP »ö±ò &4 <playername>'
+  colorblue:
+    Override: true
+    Script:
+    - '@CMDOP »ö±ò &1 <playername>'

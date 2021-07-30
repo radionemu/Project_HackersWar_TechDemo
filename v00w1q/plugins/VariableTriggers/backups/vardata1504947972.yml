@@ -1,0 +1,124 @@
+objects:
+  jobselect:
+    Integers:
+      history405: 4
+      Jun: 1
+      YellowDevil: 3
+      BOSSzBOSS: 2
+      aLee0303: 3
+      pick: 4
+      Detective0925: 1
+      unnormal: 1
+      nsj: 1
+      Lux_Acadia: 3
+      5haehajima: 5
+      chicken48584: 2
+      Din_A: 1
+      JOY: 5
+      Oasis: 3
+      Down07: 6
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  teamselect:
+    Integers:
+      history405: 1
+      Jun: 2
+      YellowDevil: 1
+      BOSSzBOSS: 1
+      aLee0303: 2
+      pick: 1
+      Detective0925: 1
+      unnormal: 1
+      nsj: 2
+      Lux_Acadia: 1
+      5haehajima: 2
+      chicken48584: 1
+      Din_A: 2
+      Oasis: 2
+      JOY: 1
+      Down07: 1
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  mapselect:
+    Integers:
+      history405: 1
+      Jun: 1
+      YellowDevil: 1
+      BOSSzBOSS: 2
+      aLee0303: 2
+      pick: 1
+      Detective0925: 1
+      unnormal: 1
+      nsj: 1
+      Lux_Acadia: 0
+      5haehajima: 1
+      chicken48584: 2
+      Din_A: 2
+      Oasis: 2
+      JOY: 2
+      Down07: 1
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  start:
+    Integers:
+      history405: 0
+      aLee0303: 0
+      pick: 0
+      Detective0925: 0
+      BOSSzBOSS: 0
+      Jun: 0
+      unnormal: 0
+      nsj: 0
+      Lux_Acadia: 0
+      5haehajima: 0
+      chicken48584: 0
+      YellowDevil: 0
+      Din_A: 0
+      Oasis: 0
+      JOY: 0
+      Down07: 0
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  multykill:
+    Integers:
+      aLee0303: 0
+      history405: 0
+      pick: 0
+      BOSSzBOSS: 0
+      Detective0925: 0
+      Lux_Acadia: 0
+      5haehajima: 0
+      Teger_: 0
+      nsj: 0
+      chicken48584: 0
+      DYNAMES: 0
+      YellowDevil: 0
+      Din_A: 0
+      Oasis: 0
+      JOY: 0
+      Down07: 0
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  exp:
+    Integers:
+      history405: 7840
+      aLee0303: 3100
+      BOSSzBOSS: 3640
+      pick: 80
+      Detective0925: 380
+      Lux_Acadia: 560
+      5haehajima: 20
+      nsj: 5540
+      chicken48584: 40
+      YellowDevil: 1580
+      Din_A: 100
+      Oasis: 850
+      JOY: 560
+    Strings: {}
+    StringLists: {}
+    Booleans: {}

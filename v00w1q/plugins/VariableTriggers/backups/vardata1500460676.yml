@@ -1,0 +1,107 @@
+objects:
+  jobselect:
+    Integers:
+      history405: 2
+      Jun: 1
+      YellowDevil: 1
+      BOSSzBOSS: 3
+      aLee0303: 6
+      pick: 4
+      Detective0925: 3
+      unnormal: 1
+      nsj: 2
+      Lux_Acadia: 3
+      5haehajima: 5
+      chicken48584: 2
+      Din_A: 1
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  teamselect:
+    Integers:
+      history405: 1
+      Jun: 2
+      YellowDevil: 1
+      BOSSzBOSS: 2
+      aLee0303: 2
+      pick: 1
+      Detective0925: 2
+      unnormal: 1
+      nsj: 2
+      Lux_Acadia: 1
+      5haehajima: 2
+      chicken48584: 1
+      Din_A: 2
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  mapselect:
+    Integers:
+      history405: 2
+      Jun: 1
+      YellowDevil: 1
+      BOSSzBOSS: 1
+      aLee0303: 1
+      pick: 1
+      Detective0925: 2
+      unnormal: 1
+      nsj: 1
+      Lux_Acadia: 0
+      5haehajima: 1
+      chicken48584: 2
+      Din_A: 2
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  start:
+    Integers:
+      history405: 0
+      aLee0303: 0
+      pick: 0
+      Detective0925: 0
+      BOSSzBOSS: 0
+      Jun: 0
+      unnormal: 0
+      nsj: 0
+      Lux_Acadia: 0
+      5haehajima: 0
+      chicken48584: 0
+      YellowDevil: 0
+      Din_A: 0
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  multykill:
+    Integers:
+      aLee0303: 0
+      history405: 0
+      pick: 0
+      BOSSzBOSS: 0
+      Detective0925: 0
+      Lux_Acadia: 0
+      5haehajima: 0
+      Teger_: 0
+      nsj: 0
+      chicken48584: 0
+      DYNAMES: 0
+      YellowDevil: 0
+      Din_A: 0
+    Strings: {}
+    StringLists: {}
+    Booleans: {}
+  exp:
+    Integers:
+      history405: 5700
+      aLee0303: 2270
+      BOSSzBOSS: 3260
+      pick: 80
+      Detective0925: 300
+      Lux_Acadia: 560
+      5haehajima: 20
+      nsj: 4270
+      chicken48584: 40
+      YellowDevil: 460
+      Din_A: 100
+    Strings: {}
+    StringLists: {}
+    Booleans: {}

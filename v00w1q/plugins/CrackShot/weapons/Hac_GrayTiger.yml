@@ -1,0 +1,76 @@
+RocketLauncher:
+    Item_Information:
+        Item_Name: "&f&lGrayTiger : &e&lRocket Launcher"
+        Item_Type: 269
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 15
+        Projectile_Damage: 4
+        Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Bullet_Spread: 0
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Abilities:
+        No_Fall_Damage: true
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Explosions:
+        Enable: true
+        Knockback: 8
+        Damage_Multiplier: 10
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Enable_Owner_Immunity: false
+        On_Impact_With_Anything: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+OneKillRocketLauncher:
+    Item_Information:
+        Item_Name: "&f&lGrayTiger : &e&lOne Kill Rocket Launcher"
+        Item_Type: 269
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 15
+        Projectile_Damage: 999
+        Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Bullet_Spread: 0
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Abilities:
+        No_Fall_Damage: true
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 0
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Explosions:
+        Enable: true
+        Knockback: 8
+        Damage_Multiplier: 999
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Enable_Owner_Immunity: false
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: truef
+        Sounds_Shooter: SHOOT_ARROW-1-2-0

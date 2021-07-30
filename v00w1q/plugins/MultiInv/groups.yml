@@ -1,0 +1,11 @@
+Delete:
+- world_nether
+- world_the_end
+
+Lobby:
+- world
+
+Map:
+- map
+- SrcMap
+- PlayMap

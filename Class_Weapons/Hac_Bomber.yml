@@ -1,0 +1,104 @@
+Minesweeper:
+    Item_Information:
+        Item_Name: "&f&lBomber : &e&lMinesweeper"
+        Item_Type: 69
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+    Explosive_Devices:
+        Enable: true
+        Device_Type: remote
+        Device_Info: 6-1A-TNT
+        Sounds_Deploy: CHICKEN_EGG_POP-2-1-0
+        Sounds_Alert_Placer: CLICK-2-1-0
+        Sounds_Trigger: SHEEP_SHEAR-2-1-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Damage_Multiplier: 15
+        Explosion_Radius: 7
+        On_Impact_With_Anything: true
+        Explosion_Delay: 0
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+        
+CompressedFireLauncher:
+    Item_Information:
+        Item_Name: "&f&lBomber : &e&lCompressed Fire Launcher"
+        Item_Type: 270
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Flames: true
+        Projectile_Incendiary: 
+            Enable: true
+            Duration: 100
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 7
+        Bullet_Spread: 0
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 17
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 20
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+BombMinigun:
+    Item_Information:
+        Item_Name: "&f&lBomber : &e&lBomb Minigun"
+        Item_Type: 277
+        Item_Lore: "&a|"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 344
+        Projectile_Speed: 17
+        Projectile_Damage: 10
+        Bullet_Spread: 0
+        Sounds_Shoot: IRONGOLEM_HIT-2-5-0,ZOMBIE_METAL-2-5-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 3
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 15
+        Damage_Multiplier: 20
+        On_Impact_With_Anything: true
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 0
+        Sounds_Reloading: LEVEL_UP-2-2-10,FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true

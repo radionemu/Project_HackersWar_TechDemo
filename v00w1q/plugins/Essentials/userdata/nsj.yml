@@ -1,0 +1,21 @@
+timestamps:
+  login: 1504361611989
+  lastteleport: 1504361722879
+  logout: 1504362036673
+ipAddress: 192.168.0.4
+lastlocation:
+  world: SrcMap
+  x: -234.5
+  y: 67.0
+  z: 278.5
+  yaw: 138.3274
+  pitch: 21.180418
+logoutlocation:
+  world: world
+  x: -362.4820250264116
+  y: 65.0
+  z: 217.52975537028288
+  yaw: 103.38757
+  pitch: 23.976105
+afk: false
+godmode: false

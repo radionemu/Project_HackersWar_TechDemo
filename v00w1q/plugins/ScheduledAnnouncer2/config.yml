@@ -1,0 +1,10 @@
+# 
+# ScheduledAnnouncer Configuration File
+# =====================================
+announcement:
+  enabled: true
+  random: false
+  prefix: '&c****'
+  interval: 60
+  messages:
+  - '&2&l[공지]&e카페 가입해주세요 주소는 /카페'

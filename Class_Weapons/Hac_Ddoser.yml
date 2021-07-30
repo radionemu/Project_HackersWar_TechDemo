@@ -1,0 +1,109 @@
+AssaultRifle:
+    Item_Information:
+        Item_Name: "&f&lDdoser : &e&lAssault Rifle"
+        Item_Type: 258
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0.2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 35
+        Projectile_Damage: 3
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 45
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+        
+Grenade:
+    Item_Information:
+        Item_Name: "&f&lDdoser : &e&lGrenade"
+        Item_Type: 259
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 259
+        Projectile_Speed: 15
+        Sounds_Shoot: SHOOT_ARROW-2-0-0
+    Explosions:
+        Enable: true
+        Knockback: 3
+        Damage_Multiplier: 24
+        On_Impact_With_Anything: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Explosion_Delay: 30
+    Reload:
+        Enable: true
+        Damage_Multiplier: 16\5
+        Explosion_Radius: 8
+        Reload_Amount: 3
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+
+OverAssaultRifle:
+    Item_Information:
+        Item_Name: "&f&lDdoser : &e&lOver Assault Rifle"
+        Item_Type: 258
+        Item_Lore: "&a|"
+        Skip_Name_Check: false
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0.2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 6
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 0
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+        

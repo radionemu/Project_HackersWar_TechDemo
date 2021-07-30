@@ -1,0 +1,490 @@
+2021-07-30 23:56:30 [INFO] Starting minecraft server version 1.5.2
+2021-07-30 23:56:30 [INFO] Loading properties
+2021-07-30 23:56:30 [INFO] Default game type: SURVIVAL
+2021-07-30 23:56:30 [INFO] Generating keypair
+2021-07-30 23:56:30 [INFO] Starting Minecraft server on *:25565
+2021-07-30 23:56:30 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2021-07-30 23:56:31 [SEVERE] Could not load 'plugins\Trash can(¾²·¹±âÅë).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:255)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_5_R3.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_5_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:106)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:382)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.util.zip.ZipException: invalid CEN header (bad entry name)
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1608)
+	at java.base/java.util.zip.ZipFile$Source.checkUTF8(ZipFile.java:1345)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1544)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1281)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1243)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:707)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:241)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:319)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:285)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:243)
+	... 8 more
+2021-07-30 23:56:31 [INFO] [PermissionsEx] sql backend registered!
+2021-07-30 23:56:31 [INFO] [PermissionsEx] file backend registered!
+2021-07-30 23:56:31 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2021-07-30 23:56:31 [INFO] [WorldEdit] Loading WorldEdit v5.5.6
+2021-07-30 23:56:31 [INFO] [ColoredSigns] Loading ColoredSigns v4.1
+2021-07-30 23:56:31 [INFO] [TKillExperience] Loading TKillExperience v1.0
+2021-07-30 23:56:31 [INFO] [OpenInv] Loading OpenInv v2.1.1
+2021-07-30 23:56:31 [INFO] [Essentials] Loading Essentials vPre2.11.1.2
+2021-07-30 23:56:31 [INFO] [TMultiKillCount] Loading TMultiKillCount v1.0
+2021-07-30 23:56:31 [INFO] [GlobalAlert] Loading GlobalAlert v1.0
+2021-07-30 23:56:31 [INFO] [NBTEditor] Loading NBTEditor v0.0.2
+2021-07-30 23:56:31 [INFO] [ClearLag] Loading ClearLag v2.3.1
+2021-07-30 23:56:31 [INFO] [TuxTwoLib] Loading TuxTwoLib v1.5.2-b2
+2021-07-30 23:56:31 [INFO] [CrackShot] Loading CrackShot v0.93
+2021-07-30 23:56:31 [INFO] [Prefixer] Loading Prefixer v2.3
+2021-07-30 23:56:31 [INFO] [ScheduledAnnouncer2] Loading ScheduledAnnouncer2 v2.3.1 - For 1.2.5
+2021-07-30 23:56:31 [INFO] [Modifyworld] Loading Modifyworld v1.19.4
+2021-07-30 23:56:31 [INFO] [Lockette] Loading Lockette v1.7.11
+2021-07-30 23:56:31 [INFO] [AllPlayer] Loading AllPlayer v1.2
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] Loading AutoSaveWorld v4.5
+2021-07-30 23:56:31 [INFO] [Head] Loading Head v1.0
+2021-07-30 23:56:31 [INFO] [MultiWorld] Loading MultiWorld v4.6.4
+2021-07-30 23:56:31 [INFO] [DisableRespawnScreen] Loading DisableRespawnScreen v1.1.0
+2021-07-30 23:56:31 [INFO] [EssentialsProtect] Loading EssentialsProtect vPre2.11.1.2
+2021-07-30 23:56:31 [INFO] [ForBlueArmor] Loading ForBlueArmor v1.0.0
+2021-07-30 23:56:31 [INFO] [EssentialsChat] Loading EssentialsChat vPre2.11.1.2
+2021-07-30 23:56:31 [INFO] [iConomy] Loading iConomy v7.0
+2021-07-30 23:56:31 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.5
+2021-07-30 23:56:31 [INFO] [PermissionsEx] Initializing file backend
+2021-07-30 23:56:31 [INFO] Permissions file successfully reloaded
+2021-07-30 23:56:31 [INFO] [IPLogger] Loading IPLogger v1.0
+2021-07-30 23:56:31 [INFO] [RPG Items] Loading RPG Items v3.3
+2021-07-30 23:56:31 [INFO] [SimpleAlias] Loading SimpleAlias v1.2.0
+2021-07-30 23:56:31 [INFO] [PlayerLogger] Loading PlayerLogger v0.3
+2021-07-30 23:56:31 [INFO] [Regios] Loading Regios v5.9.8
+2021-07-30 23:56:31 [INFO] [HSGBomb] Loading HSGBomb v1.0
+2021-07-30 23:56:31 [INFO] [MOTDColor] Loading MOTDColor v0.1
+2021-07-30 23:56:31 [INFO] [MelooonCensor] Loading MelooonCensor v2.1
+2021-07-30 23:56:31 [INFO] [mItemGroup] Loading mItemGroup v1.0
+2021-07-30 23:56:31 [INFO] [Vault] Loading Vault v1.2.25-b333
+2021-07-30 23:56:31 [INFO] [EssentialsSpawn] Loading EssentialsSpawn vPre2.11.1.2
+2021-07-30 23:56:31 [INFO] [NRC] Loading NRC v1.0
+2021-07-30 23:56:31 [INFO] [ChestShop] Loading ChestShop v3.5
+2021-07-30 23:56:31 [INFO] [MultiInv] Loading MultiInv v3.2.5
+2021-07-30 23:56:31 [INFO] [VariableTriggers] Loading VariableTriggers v1.2.5
+2021-07-30 23:56:31 [INFO] [Citizens] Loading Citizens v2.0.8-SNAPSHOT (build 803)
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] Enabling AutoSaveWorld v4.5
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] AutoSaveThread Started: Interval is 900 seconds, Warn Times are 0
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] AutoBackupThread Started: Interval is 21600 seconds, Warn Times are 0
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] AutoPurgeThread Started: Interval is 86400 seconds, Warn Times are 0
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] SelfRestartThread started
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] CrashRestartThread started
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] Version 4.5 is enabled: e2c5bf2d-6322-4fae-a7a3-7e301386b3d8
+2021-07-30 23:56:31 [INFO] [AutoSaveWorld] AutoRestartThread started
+2021-07-30 23:56:31 [INFO] [Vault] Enabling Vault v1.2.25-b333
+2021-07-30 23:56:31 [INFO] [Vault][Economy] Essentials Economy found: Waiting
+2021-07-30 23:56:31 [WARNING] iConomy - If you are using Flatfile storage be aware that versions 6, 7 and 8 have a CRITICAL bug which can wipe ALL iconomy data.
+2021-07-30 23:56:31 [WARNING] if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+2021-07-30 23:56:31 [WARNING] it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+2021-07-30 23:56:31 [INFO] [Vault][Economy] iConomy 6 found: Waiting
+2021-07-30 23:56:31 [INFO] [Vault][Permission] PermissionsEx found: Waiting
+2021-07-30 23:56:31 [INFO] [Vault][Permission] SuperPermissions loaded as backup permission system.
+2021-07-30 23:56:31 [INFO] [Vault][Chat] PermissionsEx found: Waiting
+2021-07-30 23:56:31 [INFO] [Vault] Enabled Version 1.2.25-b333
+2021-07-30 23:56:31 [INFO] [Vault][Economy] Essentials Economy hooked.
+2021-07-30 23:56:31 [INFO] [Vault][Economy] iConomy 7 hooked.
+2021-07-30 23:56:31 [INFO] [Vault][Permission] PermissionsEx hooked.
+2021-07-30 23:56:31 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2021-07-30 23:56:31 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2021-07-30 23:56:31 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2021-07-30 23:56:31 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2021-07-30 23:56:31 [INFO] Preparing level "world"
+2021-07-30 23:56:31 [INFO] Preparing start region for level 0 (Seed: -5926403026552223966)
+2021-07-30 23:56:31 [INFO] Preparing start region for level 1 (Seed: 1534223824330178184)
+2021-07-30 23:56:31 [INFO] Preparing start region for level 2 (Seed: 1534223824330178184)
+2021-07-30 23:56:31 [INFO] [WorldEdit] Enabling WorldEdit v5.5.6
+2021-07-30 23:56:31 [INFO] WEPIF: Using the Bukkit Permissions API.
+2021-07-30 23:56:31 [INFO] [ColoredSigns] Enabling ColoredSigns v4.1
+2021-07-30 23:56:31 [WARNING] [ColoredSigns] Erorr while loading commands.
+2021-07-30 23:56:31 [WARNING] [ColoredSigns] Check your craftbukkit version or contact the developer.
+2021-07-30 23:56:31 [INFO] ====================================
+2021-07-30 23:56:31 [INFO] |     ColoredSigns by Janomine     |
+2021-07-30 23:56:31 [INFO] |            Version: 4.1          |
+2021-07-30 23:56:31 [INFO] |           Stable Version         |
+2021-07-30 23:56:31 [INFO] ====================================
+2021-07-30 23:56:31 [INFO] [TKillExperience] Enabling TKillExperience v1.0
+2021-07-30 23:56:31 [INFO] [OpenInv] Enabling OpenInv v2.1.1
+2021-07-30 23:56:31 [INFO] [Essentials] Enabling Essentials vPre2.11.1.2
+2021-07-30 23:56:32 [INFO] Essentials: Using config file enhanced permissions.
+2021-07-30 23:56:32 [INFO] Permissions listed in as player-commands will be given to all users.
+2021-07-30 23:56:32 [INFO] [Essentials] Payment method found (Vault - Economy: iConomy 7 version: 1.2.25-b333)
+2021-07-30 23:56:32 [INFO] [TMultiKillCount] Enabling TMultiKillCount v1.0
+2021-07-30 23:56:32 [INFO] [GlobalAlert] Enabling GlobalAlert v1.0
+2021-07-30 23:56:32 [INFO] [NBTEditor] Enabling NBTEditor v0.0.2
+2021-07-30 23:56:32 [SEVERE] Cannot load configuration from stream
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xFFFD) special characters are not allowed
+in "<string>", position 236
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:138)
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:202)
+	at com.goncalomb.bukkit.lang.Lang.loadLanguage(Lang.java:93)
+	at com.goncalomb.bukkit.lang.Lang.loadLanguage(Lang.java:108)
+	at com.goncalomb.bukkit.lang.Lang.registerPlugin(Lang.java:54)
+	at com.goncalomb.bukkit.betterplugin.BetterPlugin.onEnable(BetterPlugin.java:42)
+	at com.goncalomb.bukkit.nbteditor.NBTEditor.onEnable(NBTEditor.java:24)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.j(MinecraftServer.java:304)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.e(MinecraftServer.java:283)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.a(MinecraftServer.java:243)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:151)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:382)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: unacceptable character '?' (0xFFFD) special characters are not allowed
+in "<string>", position 236
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70)
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53)
+	... 18 more
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.bos.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbts.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbti.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbte.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbtb.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbtp.description!
+2021-07-30 23:56:32 [WARNING] [XptoLang] Translation key not found, nbt.cmds.nbth.description!
+2021-07-30 23:56:32 [INFO] [CustomItems] CustomItemManager bound to NBTEditor.
+2021-07-30 23:56:32 [INFO] [NBTEditor] NBTEditor has been enabled.
+2021-07-30 23:56:32 [INFO] [ClearLag] Enabling ClearLag v2.3.1
+2021-07-30 23:56:32 [INFO] [ClearLag] ClearLag is now enabled.
+2021-07-30 23:56:32 [INFO] [TuxTwoLib] Enabling TuxTwoLib v1.5.2-b2
+2021-07-30 23:56:32 [INFO] [CrackShot] Enabling CrackShot v0.93
+2021-07-30 23:56:32 [INFO] [CrackShot] Gun-mode activated. Boop!
+2021-07-30 23:56:32 [INFO] [Prefixer] Enabling Prefixer v2.3
+2021-07-30 23:56:32 [INFO] [Plugin] Enabled!
+2021-07-30 23:56:32 [INFO] [ScheduledAnnouncer2] Enabling ScheduledAnnouncer2 v2.3.1 - For 1.2.5
+2021-07-30 23:56:32 [INFO] ScheduledAnnouncer2 v2.3.1 - For 1.2.5 is enabled!
+
+2021-07-30 23:56:32 [INFO] [Modifyworld] Enabling Modifyworld v1.19.4
+2021-07-30 23:56:32 [INFO] [Modifyworld] Modifyworld enabled!
+2021-07-30 23:56:32 [INFO] [Lockette] Enabling Lockette v1.7.11
+2021-07-30 23:56:32 [INFO] [Lockette] Version 1.7.11 is being enabled!  Yay!  (Core version 1.3.7)
+2021-07-30 23:56:32 [INFO] [Lockette] Detected craftbukkit build [2788] ok.
+2021-07-30 23:56:32 [INFO] [Lockette] Custom lockable block list: [116, 84, 57, 145, 154]
+2021-07-30 23:56:32 [INFO] [Lockette] Ignoring linked plugins: [mcMMO]
+2021-07-30 23:56:32 [INFO] [Lockette] Loading strings file for English by Acru
+2021-07-30 23:56:32 [INFO] [Lockette] Using ops file for admin permissions.
+2021-07-30 23:56:32 [INFO] [Lockette] Ready to protect your containers.
+2021-07-30 23:56:32 [INFO] [AllPlayer] Enabling AllPlayer v1.2
+2021-07-30 23:56:32 [INFO] [AllPlayer] ¼³Á¤À» ºÒ·¯¿À´Â Áß...
+2021-07-30 23:56:32 [INFO] [AllPlayer] Á¤»óÀûÀ¸·Î ÀÛµ¿µÇ¾ú½À´Ï´Ù. by °³¹ßÀÚ±¹
+2021-07-30 23:56:32 [INFO] [Head] Enabling Head v1.0
+2021-07-30 23:56:32 [INFO] Head version 1.0 enabled.
+2021-07-30 23:56:32 [INFO] [MultiWorld] Enabling MultiWorld v4.6.4
+2021-07-30 23:56:32 [INFO] Preparing start region for level 3 (Seed: 1534223824330178184)
+2021-07-30 23:56:33 [INFO] Preparing start region for level 4 (Seed: -6558080969432098658)
+2021-07-30 23:56:33 [INFO] [MultiWorld] v4.6.4 enabled.
+2021-07-30 23:56:33 [INFO] [DisableRespawnScreen] Enabling DisableRespawnScreen v1.1.0
+2021-07-30 23:56:33 [INFO] [DisableRespawnScreen] Death Listener Registered
+2021-07-30 23:56:33 [INFO] [EssentialsProtect] Enabling EssentialsProtect vPre2.11.1.2
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] Enabling ForBlueArmor v1.0.0
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] - [ ArmorPlugin ] -
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] ----- [ 1.6.2 È£È¯¹öÀü ] -----
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] ----- [ ÀÛµ¿Áß ] -----
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] ----- [ ÀÛµ¿¿Ï·á ] -----
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] ---- [ Á¦ÀÛÀÚ ForBlue ] -----
+2021-07-30 23:56:33 [INFO] [ForBlueArmor] [http://cafe.naver.com/forblueserver]
+2021-07-30 23:56:33 [INFO] [EssentialsChat] Enabling EssentialsChat vPre2.11.1.2
+2021-07-30 23:56:33 [INFO] [iConomy] Enabling iConomy v7.0
+2021-07-30 23:56:33 [INFO] [iConomy - April Fools] Enabled (6 ms)
+
+2021-07-30 23:56:33 [INFO] [iConomy] Hello, I'm Nijikokun. Yes, this is an April Fools joke, but '/money top' was fixed! Enjoy :) - Rare Version!
+
+2021-07-30 23:56:33 [INFO] [iConomy - April Fools] Purged accounts with default balance.
+
+2021-07-30 23:56:33 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.5
+2021-07-30 23:56:33 [INFO] [PermissionsEx] Superperms support enabled.
+2021-07-30 23:56:33 [INFO] [PermissionsEx] v1.19.5 enabled
+2021-07-30 23:56:33 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2021-07-30 23:56:33 [INFO] [Lockette] Enabled link to plugin PermissionsEx for Groups, version 1.19.5
+2021-07-30 23:56:33 [INFO] [Vault][Chat] PermissionsEx_Chat hooked.
+2021-07-30 23:56:33 [INFO] Essentials: Using PermissionsEx based permissions.
+2021-07-30 23:56:33 [INFO] [IPLogger] Enabling IPLogger v1.0
+2021-07-30 23:56:33 [INFO] [RPG Items] Enabling RPG Items v3.3
+2021-07-30 23:56:33 [INFO] [SimpleAlias] Enabling SimpleAlias v1.2.0
+2021-07-30 23:56:33 [SEVERE] Cannot load plugins\SimpleAlias\config.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xFFFD) special characters are not allowed
+in "<string>", position 84
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:138)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:105)
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:117)
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:111)
+	at com.DarkBlade12.SimpleAlias.SimpleAlias.loadConfig(SimpleAlias.java:51)
+	at com.DarkBlade12.SimpleAlias.SimpleAlias.onEnable(SimpleAlias.java:36)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.j(MinecraftServer.java:304)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.e(MinecraftServer.java:283)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.a(MinecraftServer.java:243)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:151)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:382)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: unacceptable character '?' (0xFFFD) special characters are not allowed
+in "<string>", position 84
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70)
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53)
+	... 18 more
+2021-07-30 23:56:33 [INFO] ||------SimpleAlias-----||
+2021-07-30 23:56:33 [INFO] ||     Config loaded    ||
+2021-07-30 23:56:33 [INFO] ||----------------------||
+2021-07-30 23:56:33 [INFO] [SimpleAlias] Plugin is activated!
+2021-07-30 23:56:33 [INFO] [PlayerLogger] Enabling PlayerLogger v0.3
+2021-07-30 23:56:33 [INFO] PlayerLogger v0.3 has been enabled!
+2021-07-30 23:56:33 [INFO] [Regios] Enabling Regios v5.9.8
+2021-07-30 23:56:33 [INFO] [Regios] Spout not detected. No Spout support.
+2021-07-30 23:56:33 [INFO] [Regios] WorldEdit detected! WorldEdit support enabled!
+2021-07-30 23:56:33 [INFO] [Regios] Checking directories.
+2021-07-30 23:56:33 [INFO] [Regios] Directory check completed.
+2021-07-30 23:56:33 [INFO] [Regios] Checking configuration files.
+2021-07-30 23:56:33 [INFO] [Regios] Configuration check completed.
+2021-07-30 23:56:33 [INFO] [Regios] Loading configuration files.
+2021-07-30 23:56:33 [INFO] [Regios] Loaded default region configuation file.
+2021-07-30 23:56:33 [INFO] [Regios] Loading world configuration for world: world
+2021-07-30 23:56:33 [INFO] [Regios] Loading world configuration for world: SrcMap
+2021-07-30 23:56:33 [INFO] [Regios] Loading world configuration for world: map
+2021-07-30 23:56:33 [INFO] [Regios] Loading world configuration for world: world_nether
+2021-07-30 23:56:33 [INFO] [Regios] Loading world configuration for world: world_the_end
+2021-07-30 23:56:33 [INFO] [Regios] Configuration files loaded successfully!
+2021-07-30 23:56:33 [INFO] [Regios] No Regions to load.
+2021-07-30 23:56:33 [INFO] [Regios] Vault detected! Vault support enabled!
+2021-07-30 23:56:33 [INFO] [Regios] Permissions support enabled for PermissionsEx
+2021-07-30 23:56:33 [INFO] [Regios] Starting scheduler task...
+2021-07-30 23:56:33 [INFO] [Regios] Scheduler task initiated!
+2021-07-30 23:56:33 [INFO] [Regios] Regios version 5.9.8 enabled successfully!
+2021-07-30 23:56:33 [INFO] [Regios] Regios developed by [johnnyzerox7, Adamki11s].
+2021-07-30 23:56:33 [INFO] [Regios] Metrics Started
+2021-07-30 23:56:33 [INFO] [HSGBomb] Enabling HSGBomb v1.0
+2021-07-30 23:56:33 [INFO] [MOTDColor] Enabling MOTDColor v0.1
+2021-07-30 23:56:33 [INFO] [MOTDColor] MOTDColor enabled!
+2021-07-30 23:56:33 [INFO] [MelooonCensor] Enabling MelooonCensor v2.1
+2021-07-30 23:56:33 [INFO] [mItemGroup] Enabling mItemGroup v1.0
+2021-07-30 23:56:33 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn vPre2.11.1.2
+2021-07-30 23:56:33 [INFO] [NRC] Enabling NRC v1.0
+2021-07-30 23:56:33 [INFO] [SH NRC] ÇÃ·¯±×ÀÎ È°¼ºÈ­ ¿Ï·á.
+
+2021-07-30 23:56:33 [INFO] [ChestShop] Enabling ChestShop v3.5
+2021-07-30 23:56:33 [INFO] [ChestShop] Lockette version 1.7.11 loaded.
+2021-07-30 23:56:33 [INFO] [ChestShop] Vault loaded - using iConomy 7
+2021-07-30 23:56:33 [INFO] [MultiInv] Enabling MultiInv v3.2.5
+2021-07-30 23:56:33 [INFO] [MultiInv] MC 1.3 or above found, enabling version 2 XP handling.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Enabling VariableTriggers v1.2.5
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading variable data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 6 Objects with total of 103 Variables loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading WalkTrigger data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 12 WalkTriggers loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading ClickTrigger data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 20 ClickTriggers loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading EventTriggers data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 5 EventTriggers loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading AreaTriggers data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 29 AreaTriggers loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading CommandTriggers data...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 10 CommandTriggers loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Loading ScriptFiles...
+2021-07-30 23:56:33 [INFO] [VariableTriggers] 12 Scripts from 3 files loaded.
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Hooked Vault
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Using iConomy 7
+2021-07-30 23:56:33 [INFO] [VariableTriggers] Using PermissionsEx
+2021-07-30 23:56:33 [INFO] [Citizens] Enabling Citizens v2.0.8-SNAPSHOT (build 803)
+2021-07-30 23:56:33 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2021-07-30 23:56:33 [INFO] Done (2.243s)! For help, type "help" or "?"
+2021-07-30 23:56:33 [INFO] [Citizens] Loaded 9 NPCs.
+2021-07-30 23:56:34 [WARNING] [RPG Items] Could not reach BukkitDev file stream for update checking. Is dev.bukkit.org offline?
+2021-07-30 23:56:34 [WARNING] [OpenInv] dev.bukkit.org rejected the API key provided in plugins/Updater/config.yml
+2021-07-30 23:56:34 [WARNING] [OpenInv] Please double-check your configuration to ensure it is correct.
+2021-07-30 23:56:34 [SEVERE] java.io.IOException: Server returned HTTP response code: 403 for URL: https://servermods.forgesvc.net/servermods/files?projectIds=31432
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1985)
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577)
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+
+2021-07-30 23:56:34 [SEVERE] 	at com.lishid.openinv.utils.Updater.read(Updater.java:340)
+
+2021-07-30 23:56:34 [SEVERE] 	at com.lishid.openinv.utils.Updater.update(Updater.java:396)
+
+2021-07-30 23:56:34 [SEVERE] 	at com.lishid.openinv.utils.UpdateManager$1.run(UpdateManager.java:20)
+
+2021-07-30 23:56:34 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+
+2021-07-30 23:56:34 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+
+2021-07-30 23:56:34 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:831)
+
+2021-07-30 23:56:34 [INFO] [OpenInv] Update failed, reason: FAIL_APIKEY
+2021-07-30 23:56:54 [INFO] [Metrics] Connection timed out: connect
+2021-07-30 23:56:54 [INFO] [Metrics] Connection timed out: connect
+2021-07-30 23:56:54 [INFO] [Metrics] Connection timed out: connect
+2021-07-30 23:56:54 [INFO] [Metrics] Connection timed out: connect
+2021-07-30 23:57:32 [WARNING] Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+2021-07-30 23:57:57 [INFO] radionemu[/192.168.1.85:51936] logged in with entity id 384 at ([world] -315.89271808450064, 67.0, 236.47322840375108)
+2021-07-30 23:57:57 [WARNING] [MultiInv] Task #50 for MultiInv v3.2.5 generated an exception
+java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+	at uk.co.tggl.pluckerpluck.multiinv.inventory.MIItemStack.base64Encode(MIItemStack.java:426)
+	at uk.co.tggl.pluckerpluck.multiinv.inventory.MIItemStack.getItemMetaSerialized(MIItemStack.java:345)
+	at uk.co.tggl.pluckerpluck.multiinv.inventory.MIItemStack.<init>(MIItemStack.java:58)
+	at uk.co.tggl.pluckerpluck.multiinv.inventory.MIInventory.<init>(MIInventory.java:31)
+	at uk.co.tggl.pluckerpluck.multiinv.player.MIPlayer.saveInventory(MIPlayer.java:59)
+	at uk.co.tggl.pluckerpluck.multiinv.listener.MIPlayerListener.savePlayerState(MIPlayerListener.java:193)
+	at uk.co.tggl.pluckerpluck.multiinv.player.DeferredWorldCheck.run(DeferredWorldCheck.java:37)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.r(MinecraftServer.java:513)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.r(DedicatedServer.java:226)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.q(MinecraftServer.java:477)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:410)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.DatatypeConverter
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:433)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:586)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 14 more
+2021-07-30 23:57:59 [INFO] radionemu lost connection: disconnect.quitting
+2021-07-30 23:57:59 [INFO] Connection reset
+2021-07-30 23:58:00 [INFO] [0;34;1mAutoSaving[m
+
+2021-07-30 23:58:00 [INFO] [AutoSaveWorld] AutoSaving
+2021-07-30 23:58:00 [INFO] [0;34;1mAutoSave Complete[m
+
+2021-07-30 23:58:00 [INFO] [AutoSaveWorld] AutoSave Complete
+2021-07-30 23:58:03 [INFO] CONSOLE: Stopping the server..[m
+
+2021-07-30 23:58:03 [INFO] Stopping server
+2021-07-30 23:58:03 [INFO] [Citizens] Disabling Citizens v2.0.8-SNAPSHOT (build 803)
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Disabling VariableTriggers v1.2.5
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving variable data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 6 Objects with a total of 103 Variables saved.
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving WalkTrigger data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 12 WalkTriggers saved.
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving ClickTrigger data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 20 ClickTriggers saved.
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving EventTriggers data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 5 EventTriggers saved.
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving AreaTriggers data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 29 AreaTriggers saved.
+2021-07-30 23:58:03 [INFO] [VariableTriggers] Saving CommandTriggers data...
+2021-07-30 23:58:03 [INFO] [VariableTriggers] 10 CommandTriggers saved.
+2021-07-30 23:58:03 [INFO] [MultiInv] Disabling MultiInv v3.2.5
+2021-07-30 23:58:03 [INFO] [ChestShop] Disabling ChestShop v3.5
+2021-07-30 23:58:03 [INFO] [NRC] Disabling NRC v1.0
+2021-07-30 23:58:03 [INFO] [SH NRC] ÇÃ·¯±×ÀÎ ºñÈ°¼ºÈ­ ¿Ï·á.
+
+2021-07-30 23:58:03 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn vPre2.11.1.2
+2021-07-30 23:58:03 [INFO] [Vault] Disabling Vault v1.2.25-b333
+2021-07-30 23:58:03 [INFO] [Essentials] Payment method was disabled. No longer accepting payments.
+2021-07-30 23:58:03 [INFO] [mItemGroup] Disabling mItemGroup v1.0
+2021-07-30 23:58:03 [INFO] [MelooonCensor] Disabling MelooonCensor v2.1
+2021-07-30 23:58:03 [INFO] [MOTDColor] Disabling MOTDColor v0.1
+2021-07-30 23:58:03 [INFO] [MOTDColor] MOTDColor disabled!
+2021-07-30 23:58:03 [INFO] [HSGBomb] Disabling HSGBomb v1.0
+2021-07-30 23:58:03 [INFO] [Regios] Disabling Regios v5.9.8
+2021-07-30 23:58:03 [INFO] [Regios] Shutting down scheduler task...
+2021-07-30 23:58:03 [INFO] [Regios] Scheduler task stopped successfully!
+2021-07-30 23:58:03 [INFO] [Regios] Regios version 5.9.8 disabled successfully!
+2021-07-30 23:58:03 [INFO] [PlayerLogger] Disabling PlayerLogger v0.3
+2021-07-30 23:58:03 [INFO] PlayerLogger has been disabled!
+2021-07-30 23:58:03 [INFO] [SimpleAlias] Disabling SimpleAlias v1.2.0
+2021-07-30 23:58:03 [INFO] [SimpleAlias] Plugin is deactivated!
+2021-07-30 23:58:03 [INFO] [RPG Items] Disabling RPG Items v3.3
+2021-07-30 23:58:03 [INFO] [IPLogger] Disabling IPLogger v1.0
+2021-07-30 23:58:03 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.5
+2021-07-30 23:58:03 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2021-07-30 23:58:03 [INFO] [Lockette] Disabled link to plugin PermissionsEx, version 1.19.5
+2021-07-30 23:58:03 [INFO] Permissions file successfully reloaded
+2021-07-30 23:58:03 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2021-07-30 23:58:03 [INFO] [iConomy] Disabling iConomy v7.0
+2021-07-30 23:58:03 [INFO] Essentials: Using config file enhanced permissions.
+2021-07-30 23:58:03 [INFO] Permissions listed in as player-commands will be given to all users.
+2021-07-30 23:58:03 [INFO] [iConomy] Closing general data...
+
+2021-07-30 23:58:03 [INFO] [iConomy] Disabled. (0 ms)
+
+2021-07-30 23:58:03 [INFO] [EssentialsChat] Disabling EssentialsChat vPre2.11.1.2
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] Disabling ForBlueArmor v1.0.0
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] - [ ArmorPlugin ] -
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] ----- [ 1.6.2 È£È¯¹öÀü ] -----
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] ----- [ ÀÛµ¿Áß ] -----
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] ----- [ ÀÛµ¿¿Ï·á ] -----
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] ---- [ Á¦ÀÛÀÚ ForBlue ] -----
+2021-07-30 23:58:03 [INFO] [ForBlueArmor] [http://cafe.naver.com/forblueserver]
+2021-07-30 23:58:03 [INFO] [EssentialsProtect] Disabling EssentialsProtect vPre2.11.1.2
+2021-07-30 23:58:03 [INFO] [DisableRespawnScreen] Disabling DisableRespawnScreen v1.1.0
+2021-07-30 23:58:03 [INFO] [MultiWorld] Disabling MultiWorld v4.6.4
+2021-07-30 23:58:03 [INFO] [MultiWorld] Disabled.
+2021-07-30 23:58:03 [INFO] [Head] Disabling Head v1.0
+2021-07-30 23:58:03 [INFO] Head disabled.
+2021-07-30 23:58:03 [INFO] [AutoSaveWorld] Disabling AutoSaveWorld v4.5
+2021-07-30 23:58:03 [INFO] [0;34;1mAutoSaving[m
+
+2021-07-30 23:58:03 [INFO] [AutoSaveWorld] AutoSaving
+2021-07-30 23:58:03 [INFO] [0;34;1mAutoSave Complete[m
+
+2021-07-30 23:58:03 [INFO] [AutoSaveWorld] AutoSave Complete
+2021-07-30 23:58:06 [INFO] [AutoSaveWorld] Graceful quit of selfrestart thread
+2021-07-30 23:58:06 [INFO] [AutoSaveWorld] Version 4.5 is disabled
+2021-07-30 23:58:06 [INFO] [AllPlayer] Disabling AllPlayer v1.2
+2021-07-30 23:58:06 [INFO] [AllPlayer] ¾ÈÀüÇÏ°Ô Á¾·áµÇ¾ú½À´Ï´Ù. by °³¹ßÀÚ±¹
+2021-07-30 23:58:06 [INFO] [Lockette] Disabling Lockette v1.7.11
+2021-07-30 23:58:06 [INFO] Lockette is being disabled...  ;.;
+2021-07-30 23:58:06 [INFO] [Lockette] Closing all automatic doors.
+2021-07-30 23:58:06 [INFO] [Modifyworld] Disabling Modifyworld v1.19.4
+2021-07-30 23:58:06 [INFO] [Modifyworld] Modifyworld successfully disabled!
+2021-07-30 23:58:06 [INFO] [ScheduledAnnouncer2] Disabling ScheduledAnnouncer2 v2.3.1 - For 1.2.5
+2021-07-30 23:58:06 [INFO] ScheduledAnnouncer2 v2.3.1 - For 1.2.5 is disabled!
+
+2021-07-30 23:58:06 [INFO] [Prefixer] Disabling Prefixer v2.3
+2021-07-30 23:58:06 [INFO] Disabling Prefixer 2.2
+2021-07-30 23:58:06 [INFO] [CrackShot] Disabling CrackShot v0.93
+2021-07-30 23:58:06 [INFO] [TuxTwoLib] Disabling TuxTwoLib v1.5.2-b2
+2021-07-30 23:58:06 [INFO] [ClearLag] Disabling ClearLag v2.3.1
+2021-07-30 23:58:06 [INFO] [ClearLag] ClearLag is now disabled.
+2021-07-30 23:58:06 [INFO] [NBTEditor] Disabling NBTEditor v0.0.2
+2021-07-30 23:58:06 [INFO] [NBTEditor] NBTEditor has been disabled.
+2021-07-30 23:58:06 [INFO] [GlobalAlert] Disabling GlobalAlert v1.0
+2021-07-30 23:58:06 [INFO] [TMultiKillCount] Disabling TMultiKillCount v1.0
+2021-07-30 23:58:06 [INFO] [Essentials] Disabling Essentials vPre2.11.1.2
+2021-07-30 23:58:06 [INFO] [OpenInv] Disabling OpenInv v2.1.1
+2021-07-30 23:58:06 [INFO] [TKillExperience] Disabling TKillExperience v1.0
+2021-07-30 23:58:06 [INFO] [ColoredSigns] Disabling ColoredSigns v4.1
+2021-07-30 23:58:06 [INFO] [ColoredSigns] Disabling...
+2021-07-30 23:58:06 [INFO] [WorldEdit] Disabling WorldEdit v5.5.6
+2021-07-30 23:58:06 [INFO] Saving players
+2021-07-30 23:58:06 [WARNING] DSCT: Socket closed
+2021-07-30 23:58:06 [INFO] Saving worlds
+2021-07-30 23:58:06 [INFO] Closing listening thread
+2021-07-30 23:58:06 [INFO] Saving chunks for level 'world'/Overworld
+2021-07-30 23:58:06 [INFO] Saving chunks for level 'world_nether'/Nether
+2021-07-30 23:58:06 [INFO] Saving chunks for level 'world_the_end'/The End
+2021-07-30 23:58:06 [INFO] Saving chunks for level 'map'/Overworld
+2021-07-30 23:58:06 [INFO] Saving chunks for level 'SrcMap'/Overworld
+2021-07-30 23:58:06 [INFO] Stopping server

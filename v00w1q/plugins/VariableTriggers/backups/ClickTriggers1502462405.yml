@@ -1,0 +1,111 @@
+map:
+  -430,72,556:
+    CoolDown: 0
+    Script:
+    - '@CMDOP heal'
+  -432,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:att'
+  -431,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:ddo'
+  -430,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:gra'
+  -429,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:bom'
+  -428,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:xel'
+  -427,72,553:
+    CoolDown: 0
+    Script:
+    - '@CALL job:gli'
+world:
+  -323,65,236:
+    CoolDown: 0
+    Script:
+    - '@PLAYER &f&l여기는 직업 선택 장소입니다. 좌, 우측에 설치되어있는 곳의 표지판을 누르면 표지판에 적혀진 직업으로 선택 가능합니다.'
+    - '@PLAYER &f&l직업은 4가지의 속성이 존재한데, &4&l공격, &1&l수비, &e&l돌격, &8&l지원&f&l으로 구분됩니다.'
+  -324,65,232:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 1'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lAttacker(어태커)&b&l로 설정되었습니다.'
+  -324,65,240:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 2'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lDdoser(디도서)&b&l로 설정되었습니다.'
+  -329,65,232:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 3'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lGrayTiger(그레이타이거)&b&l로 설정되었습니다.'
+  -329,65,240:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 4'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lBomber(봄버)&b&l로 설정되었습니다.'
+  -334,65,232:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 5'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lXel(셀)&b&l로 설정되었습니다.'
+  -334,65,240:
+    CoolDown: 0
+    Script:
+    - '@SETINT $jobselect.<playername> 6'
+    - '@PLAYER &f&l[&e&l안내&f&l]&b&l당신의 직업이 &f&lGlitcher(글리쳐)&b&l로 설정되었습니다.'
+  -371,65,237:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 1'
+    - '@SETINT $mapselect.<playername> 0'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&l가상맵&f&l에 &4&l레드팀&f&l으로 입장하셨습니다.'
+    - '@CALL start:team'
+  -371,65,235:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 2'
+    - '@SETINT $mapselect.<playername> 0'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&l가상맵&f&l에 &1&l블루팀&f&l으로 입장하셨습니다.'
+    - '@CALL start:team'
+  -348,65,235:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 1'
+    - '@SETINT $mapselect.<playername> 1'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&lTrocken(트로큰)&f&l에 &4&lLieTrigger팀&f&l으로
+      입장하셨습니다.'
+    - '@CALL start:team'
+  -348,65,237:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 2'
+    - '@SETINT $mapselect.<playername> 1'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&lTrocken(트로큰)&f&l에 &1&lSkullHead팀&f&l으로
+      입장하셨습니다.'
+    - '@CALL start:team'
+  -348,66,235:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 1'
+    - '@SETINT $mapselect.<playername> 2'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&lColony5(콜로니5)&f&l에 &4&lLieTrigger팀&f&l으로
+      입장하셨습니다.'
+    - '@CALL start:team'
+  -348,66,237:
+    CoolDown: 0
+    Script:
+    - '@SETINT $teamselect.<playername> 2'
+    - '@SETINT $mapselect.<playername> 2'
+    - '@BROADCAST &f&l[&e&l안내&f&l]&f&l<playername>님이 &b&lColony5(콜로니5)&f&l에 &1&lSkullHead팀&f&l으로
+      입장하셨습니다.'
+    - '@CALL start:team'

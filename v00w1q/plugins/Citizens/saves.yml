@@ -1,0 +1,221 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npc:
+  '0':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-333.4902471008595'
+        y: '66.0'
+        z: '230.51175386072464'
+        yaw: '1.269775390625'
+        pitch: '-0.4205877482891083'
+      owner: BOSSzBOSS
+    name: Xel
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-353.78501885627173'
+        y: '65.0'
+        z: '247.47887053809285'
+        yaw: '269.8343505859375'
+        pitch: '13.200189590454102'
+      owner: BOSSzBOSS
+    name: SkullHead
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-328.52626599530873'
+        y: '66.0'
+        z: '230.4863595233027'
+        yaw: '359.701904296875'
+        pitch: '0.3129286766052246'
+      owner: BOSSzBOSS
+    name: GrayTiger
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-323.52716590918277'
+        y: '66.0'
+        z: '242.48721243179153'
+        yaw: '179.600341796875'
+        pitch: '0.1556757092475891'
+      owner: BOSSzBOSS
+    name: Ddoser
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-328.5117744910896'
+        y: '66.0'
+        z: '242.44854119928888'
+        yaw: '180.86181640625'
+        pitch: '0.5224383473396301'
+      owner: BOSSzBOSS
+    name: Bomber
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-333.5439405310119'
+        y: '66.0'
+        z: '242.53799010178065'
+        yaw: '180.447021484375'
+        pitch: '-0.2633898854255676'
+      owner: BOSSzBOSS
+    name: Glitcher
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    traits:
+      spawned: true
+      location:
+        world: SrcMap
+        x: '-418.7160170805653'
+        y: '65.0'
+        z: '343.4831169365598'
+        yaw: '182.6378173828125'
+        pitch: '-1.6499851942062378'
+      owner: aLee0303
+    name: aLee0303
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    traits:
+      spawned: true
+      location:
+        world: SrcMap
+        x: '-660.5538152668413'
+        y: '65.0'
+        z: '418.353640798831'
+        yaw: '179.226318359375'
+        pitch: '-1.3499962091445923'
+      owner: aLee0303
+    name: aLee0303
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-323.4730613768391'
+        y: '66.0'
+        z: '230.41332590127814'
+        yaw: '-359.82940673828125'
+        pitch: '2.4467880725860596'
+      owner: BOSSzBOSS
+    name: Attacker
+    traitnames: type,spawned,location,owner
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

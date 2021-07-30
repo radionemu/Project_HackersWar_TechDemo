@@ -1,0 +1,33 @@
+world:
+  Respawn:
+    CoolDown: 0
+    Script:
+    - '@CMDOP heal'
+    - '@CMDOP scoreboard teams join player <playername>'
+    - '@PAUSE 4'
+    - '@CMDOP heal'
+  Join:
+    CoolDown: 0
+    Script:
+    - '@SETINT $multykill.<playername> 0'
+SrcMap:
+  Respawn:
+    CoolDown: 0
+    Script:
+    - '@CMDOP heal'
+    - '@CMDOP scoreboard teams join player <playername>'
+    - '@PAUSE 4'
+    - '@CMDOP heal'
+  PlayerDeath:
+    CoolDown: 0
+    Script:
+    - '@CMDOP money give <killername> 50'
+    - '@ADDINT $exp.<killername> 10'
+BattleMap:
+  Respawn:
+    CoolDown: 0
+    Script:
+    - '@CMDOP heal'
+    - '@CMDOP scoreboard teams join player <playername>'
+    - '@PAUSE 4'
+    - '@CMDOP heal'

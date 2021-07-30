@@ -1,0 +1,346 @@
+world:
+  -314,65,235,-312,71,237:
+    Name: SpawnZone
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@CMDOP »ö±ò &3 <playername>'
+      - '@CMDOP heal'
+    Exit:
+      CoolDown: 0
+      Script:
+      - '@CMDOP »ö±ò &3 <playername>'
+      - '@CMDOP heal'
+SrcMap:
+  -249,69,287,-249,69,287:
+    Name: Trocken_S1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -249,69,287'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -249,69,287'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -293,69,359,-293,69,359:
+    Name: Trocken_S2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -293,69,359'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -293,69,359'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -290,77,290,-290,77,290:
+    Name: Trocken_M1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -290,77,290'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -290,77,290'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -235,66,298,-235,66,298:
+    Name: Trocken_M2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -235,66,298'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -235,66,298'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -308,66,349,-308,66,349:
+    Name: Trocken_M3
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -308,66,349'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -308,66,349'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -251,77,353,-251,77,353:
+    Name: Trocken_M4
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -251,77,353'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -251,77,353'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -281,66,325,-281,66,325:
+    Name: Trocken_L1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -281,66,325'
+      - '@CMDOP effect <playername> 10 5 2'
+      - '@CMDOP feed'
+      - '@PAUSE 15'
+      - '@SETBLOCK 0 -281,66,325'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -237,67,277,-233,71,277:
+    Name: Trocken_LT1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 2'
+      - '@CMDOP tp <playername> -235 67 278'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -249,67,270,-249,70,273:
+    Name: Trocken_LT2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 2'
+      - '@CMDOP tp <playername> -250 67 272'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -308,67,369,-304,71,369:
+    Name: Trocken_SH1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 1'
+      - '@CMDOP tp <playername> -306 67 368'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -292,67,373,-292,70,376:
+    Name: Trocken_SH2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 1'
+      - '@CMDOP tp <playername> -291 67 374'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -389,105,298,-389,105,298:
+    Name: Colony5_S1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -389,105,298'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -389,105,298'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -381,105,312,-381,105,312:
+    Name: Colony5_S2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -381,105,312'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -381,105,312'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -403,105,309,-403,105,309:
+    Name: Colony5_S3
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -403,105,309'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -403,105,309'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -517,105,320,-517,105,320:
+    Name: Colony5_S4
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -517,105,320'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -517,105,320'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -524,105,306,-524,105,306:
+    Name: Colony5_S5
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -524,105,306'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -524,105,306'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -503,105,309,-503,105,309:
+    Name: Colony5_S6
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -503,105,309'
+      - '@CMDOP effect <playername> 10 1 2'
+      - '@CMDOP feed'
+      - '@PAUSE 5'
+      - '@SETBLOCK 0 -503,105,309'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -345,105,306,-345,105,306:
+    Name: Colony5_M1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -345,105,306'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -345,105,306'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -380,81,336,-380,81,336:
+    Name: Colony5_M2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -380,81,336'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -380,81,336'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -561,105,313,-561,105,313:
+    Name: Colony5_M3
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -561,105,313'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -561,105,313'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -526,81,282,-526,81,282:
+    Name: Colony5_M4
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -526,81,282'
+      - '@CMDOP effect <playername> 10 3 2'
+      - '@CMDOP feed'
+      - '@PAUSE 10'
+      - '@SETBLOCK 0 -526,81,282'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -463,132,313,-463,132,313:
+    Name: Colony5_L1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@SETBLOCK 110 -463,132,313'
+      - '@CMDOP effect <playername> 10 5 2'
+      - '@CMDOP feed'
+      - '@PAUSE 15'
+      - '@SETBLOCK 0 -463,132,313'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -349,110,285,-345,114,285:
+    Name: Colony5_LT1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 2'
+      - '@CMDOP tp <playername> -347 110 286'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -361,110,275,-361,114,279:
+    Name: Colony5_LT2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 2'
+      - '@CMDOP tp <playername> -362 110 277'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -561,110,333,-557,114,333:
+    Name: Colony5_SH1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 1'
+      - '@CMDOP tp <playername> -559 110 332'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -545,110,339,-545,114,343:
+    Name: Colony5_SH2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@IF i $teamselect.<playername> = 1'
+      - '@CMDOP tp <playername> -544 110 341'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -385,80,324,-384,85,325:
+    Name: Colony5_TP1
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@CMDOP tp <playername> -521 81 289'
+    Exit:
+      CoolDown: 0
+      Script: []
+  -522,80,293,-521,85,294:
+    Name: Colony5_TP2
+    Enter:
+      CoolDown: 0
+      Script:
+      - '@CMDOP tp <playername> -386 81 329'
+    Exit:
+      CoolDown: 0
+      Script: []

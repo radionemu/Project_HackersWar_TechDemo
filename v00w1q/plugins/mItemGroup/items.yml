@@ -1,0 +1,107 @@
+Att1: ''
+Att2: ''
+Att3:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」f」lAttacker : 」e」lShort sword'
+Att4:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_RECORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」1」7」l」f」lAttacker : 」e」l[什迭]纏爽'
+    lore:
+    - 」f什迭                              」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Ddo3:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」f」lDdoser : 」e」lShort sword'
+Ddo4:
+  ==: org.bukkit.inventory.ItemStack
+  type: GREEN_RECORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」2」7」l」f」lDdoser : 」e」l[什迭]廃域段引'
+    lore:
+    - 」f什迭                                」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Gra3:
+  ==: org.bukkit.inventory.ItemStack
+  type: RECORD_3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」4」7」l」f」lGrayTiger : 」e」l[什迭]析維'
+    lore:
+    - 」f什迭                              」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Gra2:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」f」lGrayTiger : 」e」lShort sword'
+Bom3:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」f」lBomber : 」e」lShort sword'
+Bom4:
+  ==: org.bukkit.inventory.ItemStack
+  type: RECORD_4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」5」7」l」f」lBomber : 」e」l[什迭]砂獄糎'
+    lore:
+    - 」f什迭                              」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Xel3:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」f」lXel : 」e」lShort sword'
+Xel4:
+  ==: org.bukkit.inventory.ItemStack
+  type: RECORD_5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」8」7」l」f」lXel : 」e」l[什迭]走据紫維'
+    lore:
+    - 」f什迭                              」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Gli2:
+  ==: org.bukkit.inventory.ItemStack
+  type: RECORD_6
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」6」7」l」f」lGlitcher : 」e」l[什迭]collider:disable'
+    lore:
+    - 」f什迭                                        」0」c」a」f」e」0」0」0」0
+    - 」a什迭
+Gli3:
+  ==: org.bukkit.inventory.ItemStack
+  type: RECORD_7
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '」0」0」0」0」0」0」0」7」7」l」f」lGlitcher : 」e」lteleport:anyway'
+    lore:
+    - 」f什迭                               」0」c」a」f」e」0」0」0」0
+    - 」a什迭

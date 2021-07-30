@@ -1,0 +1,192 @@
+pos: 9
+items:
+  '[스킬]지원사격':
+    name: '[스킬]지원사격'
+    id: 8
+    display: '&f&lXel : &e&l[스킬]지원사격'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: RECORD_5
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 2400
+        command: sk1000
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: 0
+    forceBar: false
+  '[스킬]텔레포트':
+    name: '[스킬]텔레포트'
+    id: 7
+    display: '&f&lGlitcher : &e&lteleport:anyway'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: RECORD_7
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 600
+        command: sk0110
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+  '[스킬]투명화':
+    name: '[스킬]투명화'
+    id: 6
+    display: '&f&lGlitcher : &e&l[스킬]collider:disable'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: RECORD_6
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 600
+        command: sk0011
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+  '[스킬]봄버존':
+    name: '[스킬]봄버존'
+    id: 5
+    display: '&f&lBomber : &e&l[스킬]봄버존'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: RECORD_4
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 2400
+        command: sk0100
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+  '[스킬]일격':
+    name: '[스킬]일격'
+    id: 4
+    display: '&f&lGrayTiger : &e&l[스킬]일격'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: RECORD_3
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 2400
+        command: sk0010
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+  '[스킬]한계초과':
+    name: '[스킬]한계초과'
+    id: 2
+    display: '&f&lDdoser : &e&l[스킬]한계초과'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: GREEN_RECORD
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 2400
+        command: sk0001
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+  '[스킬]탈주':
+    name: '[스킬]탈주'
+    id: 1
+    display: '&f&lAttacker : &e&l[스킬]탈주'
+    quality: TRASH
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: '&0'
+    hand: 스킬
+    lore: ''
+    description: []
+    item: GOLD_RECORD
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: command
+        cooldown: 1200
+        command: sk0000
+        display: 스킬
+        isRight: true
+        permission: ''
+    hasRecipe: false
+    dropChances: {}
+    maxDurability: -1
+    forceBar: false
+groups: {}

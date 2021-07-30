@@ -1,0 +1,21 @@
+# ----- CustomItems ----- Item configuration file -----
+# This file configures the custom items registed by NBTEditor.
+# For the changes to take effect you must reload the corresponding plugin.
+# 
+# Note regarding allowed-worlds/blocked-worlds:
+#   allowed-worlds, when not empty, acts like a whitelist and only
+#   on worlds from this list the item will be enabled!
+
+custom-items:
+  bos:
+    enabled: true
+    allowed-worlds: ''
+    blocked-worlds: ''
+  mob-inspector:
+    enabled: true
+    allowed-worlds: ''
+    blocked-worlds: ''
+  mob-remover:
+    enabled: true
+    allowed-worlds: ''
+    blocked-worlds: ''

@@ -1,0 +1,90 @@
+Aliases:
+  /ala:
+    Command: /aladd
+    UseArgs: false
+    AlwaysUseArgs: false
+  /돈보내기:
+    Command: /pay
+    UseArgs: false
+    AlwaysUseArgs: false
+  /칭호:
+    Command: /setprefix
+    UseArgs: false
+    AlwaysUseArgs: false
+  /넴주:
+    Command: /스폰
+    UseArgs: false
+    AlwaysUseArgs: false
+  /tmvhs:
+    Command: /스폰
+    UseArgs: false
+    AlwaysUseArgs: false
+  /귓속말:
+    Command: /m
+    UseArgs: false
+    AlwaysUseArgs: false
+  /ehs:
+    Command: /money
+    UseArgs: false
+    AlwaysUseArgs: false
+  /지불:
+    Command: /pay
+    UseArgs: false
+    AlwaysUseArgs: false
+  /음식:
+    Command: /밥
+    UseArgs: false
+    AlwaysUseArgs: false
+  /탄창:
+    Command: /총알
+    UseArgs: false
+    AlwaysUseArgs: false
+  /비번교체:
+    Command: /changepassword
+    UseArgs: false
+    AlwaysUseArgs: false
+  /비밀번호변경:
+    Command: /changepassword
+    UseArgs: false
+    AlwaysUseArgs: false
+  /방송:
+    Command: /broadcast
+    UseArgs: false
+    AlwaysUseArgs: false
+  /잠수:
+    Command: /afk
+    UseArgs: false
+    AlwaysUseArgs: false
+  /허기:
+    Command: /밥
+    UseArgs: false
+    AlwaysUseArgs: false
+  /백업:
+    Command: /backup
+    UseArgs: false
+    AlwaysUseArgs: false
+  /head:
+    Command: /nbth
+    UseArgs: false
+    AlwaysUseArgs: false
+  /포션:
+    Command: /nbtpotion
+    UseArgs: false
+    AlwaysUseArgs: false
+  /아이템:
+    Command: /nbtitem
+    UseArgs: false
+    AlwaysUseArgs: false
+  /도움말:
+    Command: /help
+    UseArgs: false
+    AlwaysUseArgs: false
+  /비밀번호교체:
+    Command: /changepassword
+    UseArgs: false
+    AlwaysUseArgs: false
+  /쓰레기통:
+    Command: /trash
+    UseArgs: false
+    AlwaysUseArgs: false
+

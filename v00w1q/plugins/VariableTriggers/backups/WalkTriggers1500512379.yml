@@ -1,0 +1,49 @@
+SrcMap:
+  -417,115,276:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -438 126 293'
+  -437,126,293:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -416 115 276'
+  -486,126,303:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -470 132 337'
+  -470,132,338:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -486 126 302'
+  -450,132,302:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -472 126 310'
+  -472,126,311:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -450 132 303'
+  -459,126,331:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -479 132 288'
+  -479,132,287:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -459 126 330'
+  -466,132,319:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -448 126 314'
+  -448,126,313:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -465 132 319'
+  -489,115,342:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -481 126 345'
+  -481,126,346:
+    CoolDown: 0
+    Script:
+    - '@CMDOP tp <playername> -490 115 342'

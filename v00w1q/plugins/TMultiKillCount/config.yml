@@ -1,0 +1,5 @@
+5multikill-msg: '&f&l[&e&l안내&f&l]&6&l<name>(이)가 학살을 시작합니다! &c&l(<kill>연속처치)'
+10multikill-msg: '&f&l[&e&l안내&f&l]&6&l<name>의 광기가 넘쳐납니다! &c&l(<kill>연속처치)'
+15multikill-msg: '&f&l[&e&l안내&f&l]&6&l<name>(을)를 막을 수 없습니다! &c&l(<kill>연속처치)'
+20multikill-msg: '&f&l[&e&l안내&f&l]&6&l<name>(은)는 전장의 지배자입니다! &c&l(<kill>연속처치)'
+dominance-msg: '&f&l[&e&l안내&f&l]&6&l<name>(이)가 <pname>의 연속처치를 막았습니다! &c&l(연속처치 차단)'
